@@ -9,8 +9,9 @@ make auto macro to check safety
 6. 시스템 접속 후에는 MS silverlight 기반이라 selenium 대신 Sikuli 사용
 7. SikuliX 다운로드 (1.1.1 )
 8. Javaw 통해 SikuliX.1.1.1.jar 실행 (자동 설치 진행)
-9. 직접 파이썬 코드 실행하여 테스트
-10. 파이썬 파일 윈도우 스케쥴러에 등록
+9. IE11 에서는 레지스트리 변경 필요 (아래 주소 참조)
+10. 직접 파이썬 코드 실행하여 테스트
+11. 파이썬 파일 윈도우 스케쥴러에 등록
 
 required conf :
     https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration
@@ -19,6 +20,10 @@ xpath tutorial :
     https://www.guru99.com/xpath-selenium.html
 
 # Sikuli Usage
+
+sikuliX main page :
+    http://www.sikulix.com/
+    
 sikuli documentation :
     http://doc.sikuli.org/index.html
 
@@ -41,3 +46,9 @@ how to run python file with window scheduler :
 how to use selenium(Korean blog) :
     https://m.blog.naver.com/PostView.nhn?blogId=nonamed0000&logNo=220977390647&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
 
+IE web Driver (Selenium HQ) :
+    https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver  
+
+아주 자세한 웹 자동화 관련 글 :
+    http://freesugar.tistory.com/45
+    
